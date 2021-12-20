@@ -1,0 +1,79 @@
+
+
+.wrapper {
+	font-family: Rubik;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px -25px;
+	padding: 0 50px;
+	align-items: flex-start;
+}
+
+.card {
+	flex-basis: calc(33% - 50px);
+	margin: 0 25px 30px;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	border-radius: 5px;
+	padding: 30px 15px;
+
+}
+.card__title {
+	font-family: Manrope;
+	font-weight: 500;
+	font-size: 20px;
+	margin: 0 0 20px 0;
+	min-height: 60px;
+}
+.card__body {
+	font-weight: 300;
+	font-size: 18px; 
+	min-height: 120px;
+	margin: 0 0 10px 0;
+}
+.card__title:first-letter,
+.card__body:first-letter,
+.comment__title:first-letter,
+.comment__body:first-letter {
+	text-transform: uppercase;
+}
+.user {
+	margin: 0 0 10px 0;
+}
+
+.user__block {
+	margin: 0 0 10px 0;
+}
+
+.user__name {
+
+}
+
+.user__username {
+
+}
+
+.user__email {
+	
+}
+
+.card__btn-comments,
+.card__btn-user {
+	border: none;
+	background: none;
+	font-weight: 400;
+	padding: 0;
+	color: #00009c;
+	margin: 0 0 10px 0;
+}
+
+.comment{
+	margin: 0 0 10px 0;
+}
+
+.comment__title {
+	font-weight: 400;
+}
+
+.comment__body {
+	font-weight: 300;
+}
