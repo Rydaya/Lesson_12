@@ -125,55 +125,6 @@ fetch(getURL('posts'))
 		}
 	})
 
-	// for(let idOfComment of commentsId) {
-						// 	for(let user of arrayUsers.slice(0,9)) {
-						// 		if(idOfComment == user.id) {
-						// 			let $nameOfComment = document.getElementById('comment_btn_' + idOfComment)
-						// 			if ($nameOfComment) {
-						// 				$nameOfComment.addEventListener('click', function() {
-						// 					let $comment = document.getElementById('comment_id_' + idOfComment)
-						// 					$comment.appendChild(makeUsers(user.name, user.username, user.email));
-						// 				})
-						// 			}
-						// 		}
-						// 	}
-						// }
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// for(let comment of comments.slice(0, 45)) {
-// 			for(let $postId of postId) {
-// 				if(comment.postId === $postId) {
-// 					let $buttons = document.getElementsByClassName('card__btn')
-// 					for(let $button of $buttons){
-// 						$button.addEventListener('click', function(){
-// 							let $card = document.getElementById('card_id_' + $postId)
-// 							$card.appendChild(makeComments(comment.name, comment.body));
-// 						})
-// 					}
-// 				}
-// 			}
-// 		}
-
 
 
 
